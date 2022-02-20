@@ -1,11 +1,11 @@
 # ignite-todo-challenge
 rockatseat ignite challenge for add new taks, marker for completation and remove tasks
 
-# install dependencies
+### install dependencies
 ``` yarn ```
 
-# start server
+### start server
 ``` yarn dev ```
 
-# run tests
+### run tests
 ``` yarn test ```
