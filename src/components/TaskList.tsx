@@ -33,7 +33,7 @@ export function TaskList() {
   }
 
   function handleRemoveTask(id: string) {
-    // Remova uma task da listagem pelo ID
+    setTasks((tasks) => tasks.filter((task) => task.id !== id));
   }
 
   function generateRandomId() {
